@@ -1,14 +1,9 @@
-manifest_version = 3
+# This file describes a Fastly Compute package. To learn more visit:
+# https://www.fastly.com/documentation/reference/compute/fastly-toml
 
-name = "github-game-cdn"
-description = "Fetch static game assets from GitHub via Fastly CDN"
 authors = ["p.shanmugam832@mybvc.ca"]
+description = "Fetch static game assets from GitHub via Fastly CDN"
 language = "javascript"
-
-[local_server]
-port = 7676
-
-[backend.github]
-address = "raw.githubusercontent.com"
-port = 443
-use_ssl = true
+manifest_version = 3
+name = "github-game-cdn"
+service_id = ""

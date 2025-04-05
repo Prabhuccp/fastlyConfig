@@ -5,8 +5,5 @@
     "scripts": {
       "build": "fastly compute build"
     },
-    "dependencies": {
-      "js-compute-runtime": "file:node_modules/js-compute-runtime"
-    }
+    "dependencies": {}
   }
-  
