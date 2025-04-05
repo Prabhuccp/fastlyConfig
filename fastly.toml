@@ -1,0 +1,15 @@
+name = "github-game-cdn"
+description = "Fetch static game assets from GitHub via Fastly CDN"
+authors = ["p.shanmugam832@mybvc.ca"]
+language = "javascript"
+
+[local_server]
+port = 7676
+
+[setup]
+# Optional: define variables or secrets here
+
+[backend.github]
+address = "raw.githubusercontent.com"
+port = 443
+use_ssl = true
