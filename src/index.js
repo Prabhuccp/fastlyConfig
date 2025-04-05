@@ -8,8 +8,8 @@ async function handleRequest(event) {
   const path = url.pathname;
 
   // Replace with your GitHub repo details
-  const owner = "your-github-username";
-  const repo = "your-repo";
+  const owner = "Prabhuccp";
+  const repo = "fastlyConfig";
   const branch = "main";
 
   // Construct the raw GitHub URL for the file

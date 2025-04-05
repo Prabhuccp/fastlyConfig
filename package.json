@@ -1,0 +1,12 @@
+{
+    "name": "github-game-cdn",
+    "version": "1.0.0",
+    "description": "Fastly Compute@Edge service to serve GitHub-hosted assets",
+    "scripts": {
+      "build": "fastly compute build"
+    },
+    "dependencies": {
+      "js-compute-runtime": "file:node_modules/js-compute-runtime"
+    }
+  }
+  
